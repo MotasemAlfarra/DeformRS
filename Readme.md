@@ -1,5 +1,9 @@
 # DeformRS: Certifying Input Deformations with Randomized Smoothing .
 
+This is the official code for the work titled: "DeformRS: Certifying Input Deformations with Randomized Smoothing"
+
+prerprint:
+
 ![plot](./pull.png)
 
 ### Environment Installation.
