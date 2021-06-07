@@ -68,3 +68,5 @@ where:
 - `radius`: the certified radius of that instance.
 - `correct`: a flag that shows whether the instance is correctly classified or not.
 - `time`: time required to certify that instance.
+
+Hence, to compute the certified accuracy at a radius R, you need to compute the percentage of the test set that is both classified correctly and have a radius that is at least R.
