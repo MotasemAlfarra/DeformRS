@@ -155,8 +155,8 @@ def main(args):
         base_classifier = ResNet18(args.dataset, device)
     elif args.model == 'resnet50':
         from models.resnet18 import normalize_layer_wrapper,  _IMAGENET_MEAN, _IMAGENET_STDDEV
-        base_classifier = torch.nn.DataParallel(resnet50(True).to('cuda'))
-        base_classifier = normalize_layer_wrapper(base_classifier, 'cuda', _IMAGENET_MEAN, _IMAGENET_STDDEV)
+        base_classifier = torch.nn.DataParallel(resnet50(True).to(device))
+        base_classifier = normalize_layer_wrapper(base_classifier, device, _IMAGENET_MEAN, _IMAGENET_STDDEV)
     else:
         raise Exception("Undefined model!")
 
