@@ -74,3 +74,21 @@ where:
 - `time`: time required to certify that instance.
 
 Hence, to compute the certified accuracy at a radius R, you need to compute the percentage of the test set that is both classified correctly and have a radius that is at least R.
+
+
+## Citation
+
+If you use this repo, please cite us:
+
+```
+@misc{alfarra2021deformrs,
+      title={DeformRS: Certifying Input Deformations with Randomized Smoothing}, 
+      author={Motasem Alfarra and Adel Bibi and Naeemullah Khan and Philip H. S. Torr and Bernard Ghanem},
+      year={2021},
+      eprint={2107.00996},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+This repository is licensed under the terms of the MIT license.
