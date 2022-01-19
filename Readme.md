@@ -1,7 +1,8 @@
 # DeformRS: Certifying Input Deformations with Randomized Smoothing .
 
-This is the official code for the work titled: "DeformRS: Certifying Input Deformations with Randomized Smoothing"
-This work is accepted to AAAI Conference on Artificial Intelligence (AAAI'22)
+This is the official code for the work titled: "DeformRS: Certifying Input Deformations with Randomized Smoothing".
+
+This work is accepted to AAAI Conference on Artificial Intelligence (AAAI'22).
 
 prerprint: [arxiv.org/pdf/2107.00996.pdf](https://arxiv.org/pdf/2107.00996.pdf)
 
